@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahoot tesuturi vegetale</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/heart.css">
+    <link rel="stylesheet" href="style/leaf.css">
+</head>
+<body>
+    <div class="container">
+        <div class="LeaftObject"></div>
+        <div class="GreenFlag" id="FBO">
+            <div class="BrokenHeart" id="BH">You made it to the END! CONGRATS!</div>
+            <div class="Flag" id="Flag"></div>
+        </div>
+        <div class="TopBox">
+            <div class="ImageBox">
+                <p id="Intrebare" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                    Press an arrow or a tile to begin!   
+                </p>
+            </div>
+            <div class="TextBox">
+                <div class="AnswerA">A</div>
+                <div class="AnswerB">B</div>
+                <div class="AnswerC">C</div>
+                <div class="AnswerD">D</div>
+            </div>
+        </div>
+        <div class="BottomBox">
+            <div class="Box1"><div class="LeftButton" id="Left"><</div></div>
+            <div class="Box2"><div class="PageNr" id="Counter"></div></div>
+            <div class="Box1"><div class="RightButton" id="Right">></div></div>
+        </div>
+    </div>
+    <script src="functions/main.js"></script>
+    <script src="functions/leaf.js"></script>
+</body>
+</html>
