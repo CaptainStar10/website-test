@@ -1,7 +1,7 @@
 
 const Intrebari = [
     "De câte tipuri sunt țesuturile vegetale?",
-    "Ce caracterisitică au țesuturile meristematice?",
+    "Ce caracterisitică au celulele țesuturilor meristematice?",
     "De câte tipuri sunt țesuturile meristematice?",
     "Unde se găsesc țesuturile meristematice primordiale apicale?",//
     "Care secvență reprezintă țesuturi definitive de apărare?",
